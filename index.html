@@ -63,10 +63,10 @@
     <div ui-view></div>
 </div>
 
-<div id="footer">
+<div id="footer" ng-controller="footerCtrl">
     <div class="container">
         <span class="pull-left">Developed by <a href="https://github.com/samcrosoft">Samcrosoft</a>.</span>
-
+        <span class="pull-right">&copy;{{ sCurrentYear }}</span>
     </div>
 </div>
 

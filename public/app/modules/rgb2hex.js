@@ -19,3 +19,9 @@ AngularRgb2Hex.config([
     });
   }
 ]);
+
+AngularRgb2Hex.controller('footerCtrl', [
+  '$scope', function($scope) {
+    return $scope.sCurrentYear = (new Date()).getFullYear();
+  }
+]);

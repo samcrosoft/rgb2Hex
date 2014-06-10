@@ -26,3 +26,13 @@ AngularRgb2Hex.config(['$stateProvider', '$urlRouterProvider',($stateProvider, $
 
   return
 ])
+
+
+
+#--------------
+# controller for the footer, just to hold the date -
+#---------------
+AngularRgb2Hex.controller 'footerCtrl', ['$scope', ($scope) ->
+  $scope.sCurrentYear = (new Date()).getFullYear()
+
+]
