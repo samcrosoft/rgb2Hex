@@ -1,0 +1,24 @@
+{
+  "name": "angularrgb2hex",
+  "version": "0.1.0",
+  "authors": [
+    "samcrosoft <samuel_olowofela@yahoo.com>"
+  ],
+  "description": "Angular Web App to Convert rgb values to hex",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.1.1",
+    "angular": "~1.2.17",
+    "angular-ui-router": "~0.2.10",
+    "font-awesome": "~4.1.0"
+  }
+}

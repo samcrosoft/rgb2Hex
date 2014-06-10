@@ -1,0 +1,26 @@
+<div>
+    <ul class="list-inline inputHolder center-block text-center">
+        <li>
+            <div class="text-center iColorIndic">Red</div>
+            <input id="iRed"   name="iRed"   type="text" class="rgbinput" maxlength="3" ng-model="model.aRGB.iRed"  />
+        </li>
+        <li>
+            <div class="text-center iColorIndic">Green</div>
+            <input id="iGreen" name='iGreen' type="text" class="rgbinput" maxlength="3" ng-model="model.aRGB.iGreen"/>
+        </li>
+        <li>
+            <div class="text-center iColorIndic">Blue</div>
+            <input id="iBlue"  name='iBlue'  type="text" class="rgbinput" maxlength="3" ng-model="model.aRGB.iBlue"/>
+        </li>
+    </ul>
+    <p>&nbsp;</p>
+    <p class="text-center">
+        Keep calm and just fiddling with the numbers and the result will be shown below..
+    </p>
+
+
+    <div class="resultHolder text-center center-block">
+        <h3>Hex Result</h3>
+        <span class="hexResult">{{ model.sHexResult}}</span>
+    </div>
+</div>

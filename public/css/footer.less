@@ -1,0 +1,58 @@
+/*
+ * Created by Adebola on 10/06/2014.
+ ** Sticky footer styles
+-------------------------------------------------- */
+@iFooterHeight: 35px;
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: @iFooterHeight;
+}
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: @iFooterHeight;
+    background-color: #f5f5f5;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+    padding: 60px 15px 0;
+}
+.container .text-muted {
+    margin: 20px 0;
+}
+
+.rgbinput, .hexResult{
+    width: 130px;
+    font-size: 50px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+}
+
+.inputHolder{
+    display: block;
+    min-width: 300px;
+    width:  auto;
+}
+
+.hexResult {
+    border: 1px solid #d3d3d3;
+}
+
+.iColorIndic
+{
+    font-weight: 300;
+    font-size: 19px;
+    padding:  10px 0;
+}

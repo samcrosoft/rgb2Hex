@@ -1,0 +1,5 @@
+## Directory-based project format
+.idea/
+
+## This is to keep the bower dependencies from been added to git
+public/libs
